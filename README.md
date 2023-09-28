@@ -1,9 +1,16 @@
-# Sudoku Solver using Python and OpenCV
+# Sudoku Solver with OCR using Python and OpenCV
 
 <br/>
 
 ## Description
-This project demonstrates solving Sudoku puzzles using Python and OpenCV. Sudoku is a popular logic-based number placement game, and this repository provides a Python implementation of a Sudoku solver.
+This project demonstrates solving Sudoku puzzles using Python and OpenCV. Sudoku is a popular logic-based number placement game, and this repository provides a Python implementation of a Sudoku solver. 
+
+<br/>
+
+## Model for Digit Recognition
+OCR stands for Optical Character Recognition. It is a technology that is used to recognize and convert printed or handwritten text, as well as characters and symbols, into machine-readable text. OCR software and systems are designed to process images or scanned documents that contain text, extracting the textual content for various purposes.
+
+The `model-OCR.h5` file in this repository contains a trained machine learning model for digit recognition. This model is used by the Sudoku solver to recognize and solve Sudoku puzzles.
 
 <br/>
 
