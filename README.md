@@ -14,6 +14,23 @@ The `model-OCR.h5` file in this repository contains a trained machine learning m
 
 <br/>
 
+## TensorFlow Configuration
+This project is configured to use TensorFlow with CPU support. 
+
+If you have a compatible GPU and want to leverage GPU acceleration, you can configure TensorFlow to use the GPU. Refer to the TensorFlow documentation for instructions on GPU setup.
+
+### Checking Device Configuration
+You can verify the TensorFlow device configuration on your system by running the provided Python script. If it shows "Currently used device: /CPU:0," TensorFlow is using the CPU.
+
+```python
+import tensorflow as tf
+
+# Check the currently used device
+print("Currently used device:", tf.test.gpu_device_name() or "/CPU:0")
+```
+
+<br/>
+
 ## Algorithm Overview
 The Sudoku solver algorithm follows these key steps:
 
@@ -49,3 +66,5 @@ Open a terminal window and navigate to the project directory where you cloned th
 
 ## Result
 The result of running the Sudoku solver script will display the solved Sudoku grid on the console. 
+
+`Note : Since we are using tensorflow, so it will take a while to show the output.`
