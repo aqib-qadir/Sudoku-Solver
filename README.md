@@ -1,1 +1,44 @@
-# Sudoku-Solver
+# Sudoku Solver using Python and OpenCV
+
+<br/>
+
+## Description
+This project demonstrates solving Sudoku puzzles using Python and OpenCV. Sudoku is a popular logic-based number placement game, and this repository provides a Python implementation of a Sudoku solver.
+
+<br/>
+
+## Algorithm Overview
+The Sudoku solver algorithm follows these key steps:
+
+1. Input a Sudoku puzzle, typically represented as a 9x9 grid with some initial numbers.
+2. Apply a backtracking algorithm to recursively fill in the empty cells with valid numbers.
+3. Check for the validity of each number placement by ensuring it doesn't violate Sudoku rules.
+4. Repeat the process until a solution is found or determine that no valid solution exists.
+
+<br/>
+
+## Set-Up and Run
+### 1. Prerequisites
+Before you begin, ensure that you have the following prerequisites installed on your system:
+
+- **Python 3.x**
+- **OpenCV (cv2)**
+- **Numpy**
+- **TensorFlow** (for loading the model)
+
+### 2. Installation
+Clone or download this GitHub repository to your local machine.
+
+To clone the repository, open your terminal and use the following command:
+   ```bash
+   git clone https://github.com/aqib-qadir/Sudoku-Solver.git
+   cd Sudoku-Solver
+   ```
+
+### 3. Usage
+Open a terminal window and navigate to the project directory where you cloned the repository. You can change the Sudoku problem, and then run the script to get the output. 
+
+<br/>
+
+## Result
+The result of running the Sudoku solver script will display the solved Sudoku grid on the console. 
