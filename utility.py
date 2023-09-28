@@ -20,7 +20,7 @@ def ImagePreProcessor(img) :
 
 # BiggestContour Function
 def BiggestContour(contours) :
-    biggeset = np.array([])
+    biggest = np.array([])
     maxArea = 0
 
     for i in contours :
